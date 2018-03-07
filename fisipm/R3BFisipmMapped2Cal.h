@@ -38,10 +38,10 @@ class R3BFibersipmMapped2Cal : public FairTask
     R3BEventHeader *fHeader;    // do we need that?
     TClonesArray* fMappedItems; // holding input data
     TClonesArray* fCalItems;    // holding output data
-    TClonesArray* fCalibration; // holding slopes and offsets
+    //    TClonesArray* fCalibration; // holding slopes and offsets
     
     // calibration parameters, might be recreated in another way soon
-    const static UInt_t fNDet = 1;
+    //const static UInt_t fNDet = 1;
     const static UInt_t fNChannels = 32;
     //const static UInt_t fNMPPC = fNDet*fNChannels;  // FIXME: commented out because of error with ROOT 5 dictionary
 a.u. or so

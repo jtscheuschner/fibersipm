@@ -22,9 +22,9 @@ using namespace std;
 #include <sstream>
 
 #include "R3BEventHeader.h"
-#include "R3BFibersipmMappedData.h"
-#include "R3BFibersipmCalData.h"
-#include "R3BFibersipmMapped2Cal.h"
+#include "R3BFisipmMappedData.h"
+#include "R3BFisipmCalData.h"
+#include "R3BFisipmMapped2Cal.h"
 		
 // R3BFibersipmMapped2Cal::R3BFibersipmMapped2Cal()
 //   : fMappedItems(NULL)

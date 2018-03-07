@@ -88,5 +88,9 @@
 #pragma link C++ class R3BFi4HitItem+;
 #pragma link C++ class R3BFibMappedData+;
 #pragma link C++ class R3BFibCalData+;
+#pragma link C++ class R3BFisipmMappedData+;
+#pragma link C++ class R3BFisipmCalData+;
+#pragma link C++ class R3BFisipmHitData+;
+
 
 #endif

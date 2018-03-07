@@ -45,7 +45,6 @@ set(SRCS
 # R3BGeoFi4Par.cxx   
 # R3BFi4ContFact.cxx
 #R3BFi4DigiPar.cxx  
-#R3BFisipmMapped2CalPar.cxx
 R3BFisipmMapped2Cal.cxx
 R3BFisipmCal2Hit.cxx
 #R3BFi4Cal2Hit.cxx
@@ -56,6 +55,6 @@ CHANGE_FILE_EXTENSION(*.cxx *.h HEADERS "${SRCS}")
 Set(LINKDEF FisipmLinkDef.h)
 Set(LIBRARY_NAME R3BFisipm)
 Set(DEPENDENCIES
-    R3Bbase R3BData R3BPassive MCStack R3BTCal R3BBunchedFiber)
+    R3Bbase R3BData R3BPassive R3BTCal)
 
 GENERATE_LIBRARY()
